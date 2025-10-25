@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_history"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/history"
+        android:clipToOutline="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eintracht Frankfurt History"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:justificationMode="inter_word"
+                android:text="The origins of the club go back to a pair of football clubs founded in 1899: Frankfurter Fußball-Club Victoria von 1899 – regarded as the original team in the club's history – and Frankfurter Fußball-Club Kickers von 1899.[citation needed] Both clubs were founding members of the new Nordkreis-Liga in 1909.[citation needed] These two teams merged in May 1911 to become Frankfurter Fußball Verein (Kickers-Victoria), an instant success, taking three league titles from 1912 to 1914 in the Nordkreis-Liga and qualifying for the Southern German championship in each of those seasons.[citation needed] In turn, Frankfurter FV joined the gymnastics club Frankfurter Turngemeinde von 1861 to form TuS Eintracht Frankfurt von 1861 in 1920.[citation needed] The German word Eintracht means 'harmony' or 'concord', and so Eintracht is the equivalent of United in English in the names of sports teams." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:justificationMode="inter_word"
+                android:text="At the time, sports in Germany was dominated by nationalistic gymnastics organizations, and under pressure from that sport's governing authority, the gymnasts and footballers went their separate ways again in 1927, as Turngemeinde Eintracht Frankfurt von 1861 and Sportgemeinde Eintracht Frankfurt (FFV) von 1899." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:justificationMode="inter_word"
+                android:text="Through the late 1920s and into the 1930s, Eintracht won a handful of local and regional championships, first in the Kreisliga Nordmain, then in the Bezirksliga Main and Bezirksliga Main-Hessen. After being eliminated from the national level playoffs after quarterfinal losses in 1930 and 1931, they won their way to the final in 1932 where they were beaten 2–0 by Bayern Munich, who claimed their first ever German championship. In 1933, German football was re-organized into sixteen Gauligen under the Third Reich, and the club played first division football in the Gauliga Südwest, consistently finishing in the upper half of the table and winning their division in 1938." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:justificationMode="inter_word"
+                android:text="Eintracht picked up where they left off after World War II, joining the new first division Oberliga Süd. In 1946, Eintracht won the first Hessenpokal, and finished third in the Oberliga Süd a year later. In 1953, they would win the Oberliga Süd title, qualifying Eintracht for the German championship, though they did not make it to the final." />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
